@@ -7,5 +7,107 @@
 } /*  the value border box forces the padding and borders into the width and height of the element instead of expanding it.*/
 
 body {
-    
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+p {
+	font-size: .95em;
+	margin: 0 0 1em 0;
+}
+
+h1 {
+	color: #ffec7e;
+}
+
+h2 {
+	color: #e6a8ee;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ================================= 
+  main Layout Styles
+==================================== */
+
+/* -- layout Containers -- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.main-header,
+.banner,
+.main-footer {
+	text-align: center;
+}
+
+.banner {
+	color: rgb(229, 158, 238);
+	background: #6cda8d67;
+	padding: 3.2em 0;
+	margin-bottom: 48px;
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.main-footer {
+	background: #6cda8d67;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* --- Page Elements --- */
+
+.logo {
+    width: 190px;
+    border-radius: 50%;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+.ian,
+.ivo,
+.beyonce,
+.jennifer {
+    border-radius: 50%;
+}
+
+/* ================================= 
+  media Queries
+==================================== */
+
+@media (min-width: 769px){
+    .main-header,
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
+
+@media (min-width: 1025px) {
+	.main-header,
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
 }
