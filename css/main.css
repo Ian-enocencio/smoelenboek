@@ -1,0 +1,11 @@
+/* ================================= 
+  main Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box; 
+} /*  the value border box forces the padding and borders into the width and height of the element instead of expanding it.*/
+
+body {
+    
+}
